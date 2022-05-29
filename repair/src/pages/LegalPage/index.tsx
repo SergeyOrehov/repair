@@ -1,13 +1,14 @@
 import React from "react";
 
+// routes
 import routeMain from "./routes";
 
-import "/styles.scss";
+// styles
+import "./styles.scss";
 
 const LegalPage = () => {
-   <h1> Legal</h1>;
+   return <h1>LegalPage</h1>;
 };
 
 export { routeMain };
-
 export default LegalPage;

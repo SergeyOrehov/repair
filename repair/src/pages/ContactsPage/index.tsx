@@ -1,13 +1,14 @@
 import React from "react";
 
+// routes
 import routeMain from "./routes";
 
-import "/styles.scss";
+// styles
+import "./styles.scss";
 
 const ContactsPage = () => {
-   <h1> Contacts</h1>;
+   return <h1>ContactsPage</h1>;
 };
 
 export { routeMain };
-
 export default ContactsPage;

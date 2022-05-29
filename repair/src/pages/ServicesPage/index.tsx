@@ -1,13 +1,14 @@
 import React from "react";
 
+// routes
 import routeMain from "./routes";
 
-import "/styles.scss";
+// styles
+import "./styles.scss";
 
 const ServicesPage = () => {
-   <h1> Services</h1>;
+   return <h1>ServicesPage</h1>;
 };
 
 export { routeMain };
-
 export default ServicesPage;

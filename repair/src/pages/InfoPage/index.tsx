@@ -1,13 +1,14 @@
 import React from "react";
 
+// routes
 import routeMain from "./routes";
 
-import "/styles.scss";
+// styles
+import "./styles.scss";
 
 const InfoPage = () => {
-   <h1> Info</h1>;
+   return <h1>InfoPage</h1>;
 };
 
 export { routeMain };
-
 export default InfoPage;
