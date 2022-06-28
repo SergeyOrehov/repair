@@ -7,7 +7,7 @@ import Footer from "components/Footer";
 
 // Pages
 
-import MainPage, { routeMain, routeMain as routeMainPage } from "pages/MainPage";
+import MainPage, { routeMain as routeMainPage } from "pages/MainPage";
 import AnswersPage, { routeMain as routeAnswersPage } from "pages/AnswersPage";
 import ContactsPage, { routeMain as routeContactsPage } from "pages/ContactsPage";
 import GuaranteePage, { routeMain as routeGuaranteePage } from "pages/GuaranteePage";

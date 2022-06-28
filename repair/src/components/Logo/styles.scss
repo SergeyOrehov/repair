@@ -1,0 +1,21 @@
+.Logo {
+  display: flex;
+  align-items: center;
+  .logo__img {
+    width: 90px;
+    height: 90px;
+    background: url("../../image/logo.png");
+    margin-right: 24px;
+  }
+  .logo__info {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    :first-child {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 23px;
+    }
+  }
+}
