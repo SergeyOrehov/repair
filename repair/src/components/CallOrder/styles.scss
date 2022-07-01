@@ -1,0 +1,25 @@
+.callOrder {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  .callOrder__icon {
+    margin-right: 14px;
+  }
+  .callOrder__number {
+    margin-right: 17px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.58px;
+  }
+  .callOrder__btn a {
+    display: inline-block;
+    width: 160px;
+    height: 44px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    line-height: 44px;
+  }
+}
