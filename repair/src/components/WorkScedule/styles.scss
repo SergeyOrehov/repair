@@ -1,0 +1,18 @@
+.workScedule {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 400;
+  .workScedule__img {
+    margin-right: 13px;
+  }
+  .workScedule__text {
+    font-size: 20px;
+    line-height: 23px;
+    margin-right: 27px;
+  }
+  .workScedule__time {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}

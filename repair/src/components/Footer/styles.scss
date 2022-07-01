@@ -1,4 +1,37 @@
 .mainFooter {
   background: #000;
-  padding: 55px 145px 80px;
+  padding: 55px 100px 80px;
+  nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 57px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 2000px;
+  }
+}
+
+.socialIcon {
+  margin-bottom: 57px;
+  display: flex;
+  p {
+    width: 500;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #fff;
+    margin-right: 28px;
+  }
+}
+
+.footerInfo {
+  display: flex;
+  .copyright {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44;
+    text-align: center;
+  }
 }
