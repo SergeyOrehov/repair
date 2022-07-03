@@ -2,7 +2,7 @@
   background: url("../../assets/img/Монтажная область.png") no-repeat center top /
     contain;
   color: #fff;
-  padding-bottom: 115px;
+  padding-bottom: 35px;
   .container {
     .blockMenu {
       background: #fff;
@@ -12,70 +12,85 @@
         color: #000;
       }
     }
-  }
-}
-
-.wrapper {
-  margin-top: 108px;
-  h1 {
-    width: 525px;
-    font-weight: 700;
-    font-size: 39px;
-    line-height: 46px;
-    margin-bottom: 41px;
-  }
-  .list {
-    .list__item {
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 119.69%;
-      margin-left: 25px;
-    }
-  }
-  .btn-order {
-    margin-top: 41px;
-    display: inline-block;
-    width: 250px;
-    height: 60px;
-    background: #00bb34;
-    box-shadow: 2px 8px 30px #00bb34;
-    border-radius: 10px;
-    line-height: 60px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 16px;
-  }
-}
-
-.advantage {
-  margin-top: 431px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  .advantage__item {
-    width: 262px;
-    border-radius: 28px;
-    background: linear-gradient(180deg, #a6dbf5 0%, #451874 97.92%);
-    text-align: center;
-    padding-top: 54px;
-    padding-bottom: 62px;
-    div {
-      width: 97px;
-      height: 97px;
-      border-radius: 50%;
-      background: #fff;
-      display: flex;
-      align-items: center;
-      margin-right: auto;
-      margin-left: auto;
-      img {
-        margin-right: auto;
-        margin-left: auto;
+    .wrapper {
+      ul {
+        margin-bottom: 41px;
+      }
+      margin-top: 108px;
+      h1 {
+        width: 525px;
+        font-weight: 700;
+        font-size: 39px;
+        line-height: 46px;
+        margin-bottom: 41px;
+      }
+      .list {
+        .list__item {
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 119.69%;
+          margin-left: 25px;
+        }
       }
     }
-    p {
-      max-width: 180px;
-      margin: 0 auto;
+    .advantage {
+      margin-top: 331px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .advantage__item {
+        width: 262px;
+        border-radius: 28px;
+        background: linear-gradient(180deg, #a6dbf5 0%, #451874 97.92%);
+        text-align: center;
+        padding-top: 54px;
+        padding-bottom: 62px;
+        div {
+          width: 97px;
+          height: 97px;
+          border-radius: 50%;
+          background: #fff;
+          display: flex;
+          align-items: center;
+          margin-right: auto;
+          margin-left: auto;
+          img {
+            margin-right: auto;
+            margin-left: auto;
+          }
+        }
+        p {
+          max-width: 180px;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
+.questions {
+  display: flex;
+  .questions__img {
+    padding: 70px 0;
+  }
+  .questions__text {
+    background: url("../../assets/img/askpricestar.png") no-repeat left top;
+    display: flex;
+    padding-left: 93px;
+    align-items: center;
+    color: #000000;
+    font-weight: 500;
+    :first-child {
+      line-height: 119.69%;
+      font-size: 28px;
+      max-width: 570px;
+      margin-bottom: 35px;
+    }
+    .text {
+      line-height: 119.69%;
+      font-size: 15px;
+      max-width: 375px;
+      margin-bottom: 35px;
     }
   }
 }
