@@ -10,12 +10,10 @@ import "./styles.scss";
 const Header = () => {
   return (
     <header className="mainHeader">
-      <div className="container">
-        <Logo />
-        <Social />
-        <WorkScedule />
-        <CallOrder />
-      </div>
+      <Logo />
+      <Social />
+      <WorkScedule />
+      <CallOrder />
     </header>
   );
 };

@@ -1,0 +1,87 @@
+.mainSection {
+  background: url("../../assets/img/Монтажная область.png") no-repeat center top /
+    contain;
+  color: #fff;
+  padding-bottom: 115px;
+  .container {
+    .blockMenu {
+      background: #fff;
+      padding: 31px 60px;
+      border-radius: 0px 0px 20px 20px;
+      a {
+        color: #000;
+      }
+    }
+  }
+}
+
+.wrapper {
+  margin-top: 108px;
+  h1 {
+    width: 525px;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 46px;
+    margin-bottom: 41px;
+  }
+  .list {
+    .list__item {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 119.69%;
+      margin-left: 25px;
+    }
+  }
+  .btn-order {
+    margin-top: 41px;
+    display: inline-block;
+    width: 250px;
+    height: 60px;
+    background: #00bb34;
+    box-shadow: 2px 8px 30px #00bb34;
+    border-radius: 10px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
+
+.advantage {
+  margin-top: 431px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .advantage__item {
+    width: 262px;
+    border-radius: 28px;
+    background: linear-gradient(180deg, #a6dbf5 0%, #451874 97.92%);
+    text-align: center;
+    padding-top: 54px;
+    padding-bottom: 62px;
+    div {
+      width: 97px;
+      height: 97px;
+      border-radius: 50%;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      margin-right: auto;
+      margin-left: auto;
+      img {
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+    p {
+      max-width: 180px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}

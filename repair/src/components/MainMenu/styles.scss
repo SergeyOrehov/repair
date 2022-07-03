@@ -1,11 +1,12 @@
 .menu {
   display: flex;
   color: #fff;
+  :last-child {
+    margin-right: 0px;
+  }
   li {
-    margin-right: 65px;
-    :last-child {
-      margin-right: 0px;
-    }
+    display: block;
+    margin-right: 60px;
   }
   a {
     color: #fff;

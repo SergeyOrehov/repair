@@ -8,6 +8,8 @@ body {
   padding: 0;
   letter-spacing: 0em;
   overflow-x: hidden;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 div,
@@ -28,7 +30,6 @@ p {
 
 ul,
 li {
-  display: block;
   padding: 0;
   margin: 0;
 }

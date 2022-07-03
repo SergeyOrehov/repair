@@ -11,23 +11,21 @@ import "./styles.scss";
 const Footer = () => {
   return (
     <footer className="mainFooter">
-      <div className="container">
-        <nav>
-          <Logo />
-          <MainMenu />
-        </nav>
-        <div className="socialIcon">
-          <p>Мы в социальных сетях</p>
-          <Social />
+      <nav>
+        <Logo />
+        <MainMenu />
+      </nav>
+      <div className="socialIcon">
+        <p>Мы в социальных сетях</p>
+        <Social />
+      </div>
+      <div className="footerInfo">
+        <WorkScedule />
+        <div className="copyright">
+          <p>© 2021 sitename.ru</p>
+          <p>Все права защищены</p>
         </div>
-        <div className="footerInfo">
-          <WorkScedule />
-          <div className="copyright">
-            <p>© 2021 sitename.ru</p>
-            <p>Все права защищены</p>
-          </div>
-          <CallOrder />
-        </div>
+        <CallOrder />
       </div>
     </footer>
   );
