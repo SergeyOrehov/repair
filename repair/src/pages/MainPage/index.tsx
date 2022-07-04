@@ -16,6 +16,8 @@ const MainPage = () => {
   const imgItem_3 = require("assets/img/quality.png");
   const imgItem_4 = require("assets/img/guarantee.png");
   const washingMashine = require("assets/img/askprice.png");
+  const price1 = require("assets/img/price1.png");
+  const price2 = require("assets/img/price2.png");
   return (
     <div>
       <section className="mainSection">
@@ -75,6 +77,44 @@ const MainPage = () => {
               ремонту стиральной машинки
             </p>
             <Button text="Узнать стоимость" />
+          </div>
+        </div>
+      </section>
+      <section className="price">
+        <div className="container">
+          <div className="diagnostics">
+            <h2 className="diagnostics__title">Стоимость услуг</h2>
+            <h3 className="diagnostics__title">Диагностика</h3>
+            <div className="options">
+              <div className="options__item">
+                <div className="options__item__img">
+                  <img src={price1} alt="price 1" />
+                  <div className="options__item__block">
+                    <div>
+                      <span>0</span>
+                      <p>руб</p>
+                    </div>
+                  </div>
+                </div>
+                <p className="options__item__text">
+                  Диагностика при последующем ремонте
+                </p>
+              </div>
+              <div className="options__item">
+                <div className="options__item__img">
+                  <img src={price2} alt="price 2" />
+                  <div className="options__item__block">
+                    <div>
+                      <span>400</span>
+                      <p>руб</p>
+                    </div>
+                  </div>
+                </div>
+                <p className="options__item__text">
+                  Диагностика без последующего ремонта
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

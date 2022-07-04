@@ -67,7 +67,6 @@
     }
   }
 }
-
 .questions {
   display: flex;
   .questions__img {
@@ -91,6 +90,82 @@
       font-size: 15px;
       max-width: 375px;
       margin-bottom: 35px;
+    }
+  }
+}
+
+.price {
+  .diagnostics {
+    h2 {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 33px;
+      text-transform: uppercase;
+      margin-bottom: 19px;
+      position: relative;
+      ::before {
+        position: absolute;
+        content: "";
+        width: 20px;
+        height: 1px;
+      }
+    }
+    h3 {
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 26px;
+      margin-bottom: 46px;
+    }
+    .options {
+      display: flex;
+      justify-content: space-around;
+      .options__item {
+        text-align: center;
+        .options__item__text {
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 119.69%;
+          max-width: 230px;
+          margin: 38px auto 90px;
+        }
+        .options__item__img {
+          position: relative;
+          display: flex;
+          align-items: center;
+          width: 364px;
+          height: 364px;
+          border: 12px solid rgba(76, 26, 139, 0.42);
+          border-radius: 50%;
+        }
+        img {
+          margin: 0 auto;
+        }
+        .options__item__block {
+          display: flex;
+          align-items: center;
+          position: absolute;
+          width: 184px;
+          height: 184px;
+          border-radius: 50%;
+          background: #5f24a8;
+          bottom: -40px;
+          right: -55px;
+          color: #fff;
+          font-weight: 700;
+          text-align: center;
+          div {
+            margin: 0 auto;
+          }
+          p {
+            font-size: 28px;
+            line-height: px;
+          }
+          span {
+            font-size: 55px;
+            line-height: 64px;
+          }
+        }
+      }
     }
   }
 }
