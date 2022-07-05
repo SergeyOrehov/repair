@@ -82,9 +82,9 @@ const MainPage = () => {
       </section>
       <section className="price">
         <div className="container">
+          <h2>Стоимость услуг</h2>
           <div className="diagnostics">
-            <h2 className="diagnostics__title">Стоимость услуг</h2>
-            <h3 className="diagnostics__title">Диагностика</h3>
+            <h3 className="title">Диагностика</h3>
             <div className="options">
               <div className="options__item">
                 <div className="options__item__img">
@@ -92,7 +92,7 @@ const MainPage = () => {
                   <div className="options__item__block">
                     <div>
                       <span>0</span>
-                      <p>руб</p>
+                      <p>руб</p>тзь
                     </div>
                   </div>
                 </div>
@@ -113,6 +113,77 @@ const MainPage = () => {
                 <p className="options__item__text">
                   Диагностика без последующего ремонта
                 </p>
+              </div>
+            </div>
+          </div>
+          <div className="priceRepair">
+            <h3 className="title">Цены на ремонт</h3>
+            <div className="tableRepair">
+              <div className="tableRepair__item">
+                <div className="tableRepair__item_cause">
+                  <p>Течет стиральная машина</p>
+                </div>
+                <div className="tableRepair__item_prise">
+                  <p>
+                    Ремонт от <span>100 руб</span>
+                  </p>
+                </div>
+                <Button text="Заказать мастера" />
+              </div>
+              <div className="tableRepair__item">
+                <div className="tableRepair__item_cause">
+                  <p>Не открывается люк</p>
+                </div>
+                <div className="tableRepair__item_prise">
+                  <p>
+                    Ремонт от <span>120 руб</span>
+                  </p>
+                </div>
+                <Button text="Заказать мастера" />
+              </div>
+              <div className="tableRepair__item">
+                <div className="tableRepair__item_cause">
+                  <p>Не греет воду</p>
+                </div>
+                <div className="tableRepair__item_prise">
+                  <p>
+                    Ремонт от <span>300 руб</span>
+                  </p>
+                </div>
+                <Button text="Заказать мастера" />
+              </div>
+              <div className="tableRepair__item">
+                <div className="tableRepair__item_cause">
+                  <p>Стиральная машина не отжимает</p>
+                </div>
+                <div className="tableRepair__item_prise">
+                  <p>
+                    Ремонт от <span>250 руб</span>
+                  </p>
+                </div>
+                <Button text="Заказать мастера" />
+              </div>
+              <div className="tableRepair__item">
+                <div className="tableRepair__item_cause">
+                  <p>Не работает слив в стиральной машине</p>
+                </div>
+                <div className="tableRepair__item_prise">
+                  <p>
+                    Ремонт от <span>500 руб</span>
+                  </p>
+                </div>
+                <Button text="Заказать мастера" />
+              </div>
+              <div className="tableRepair__item">
+                <div className="tableRepair__item_cause">
+                  <p>Не вращается барабан</p>
+                </div>
+                <div className="tableRepair__item_prise">
+                  <p>
+                    Ремонт от <span>800 руб</span>
+                  </p>
+                </div>
+                <Button text="Заказать мастера" />
               </div>
             </div>
           </div>
