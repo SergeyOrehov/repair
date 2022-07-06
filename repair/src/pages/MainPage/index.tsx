@@ -18,6 +18,12 @@ const MainPage = () => {
   const washingMashine = require("assets/img/askprice.png");
   const price1 = require("assets/img/price1.png");
   const price2 = require("assets/img/price2.png");
+  const power = require("assets/img/power.png");
+  const waterDrop = require("assets/img/water-drop.png");
+  const washingMachine1 = require("assets/img/washing-machine-1.png");
+  const washingMachine2 = require("assets/img/washing-machine-2.png");
+  const warning = require("assets/img/warning.png");
+  const defectsImg = require("assets/img/25mins.png");
   return (
     <div>
       <section className="mainSection">
@@ -190,6 +196,61 @@ const MainPage = () => {
                   Подробные цены на ремонт стиральных машин
                 </a>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="defects">
+        <div className="container">
+          <p className="defects__text">
+            Выполняем срочный ремонт поломки, которые мастер устранет за
+            <span> 25 минут</span>
+          </p>
+          <div className="wrapper">
+            <ul className="list">
+              <li className="list__item">
+                <div className="list__item-img">
+                  <img src={power} alt="power"></img>
+                </div>
+                <div className="list__item-text">
+                  <p>Не включается стиральная машина</p>
+                </div>
+              </li>
+              <li className="list__item">
+                <div className="list__item-img">
+                  <img src={waterDrop} alt="waterDrop"></img>
+                </div>
+                <div className="list__item-text">
+                  <p>Течет стиральная машина</p>
+                </div>
+              </li>
+              <li className="list__item">
+                <div className="list__item-img">
+                  <img src={washingMachine1} alt="washingMachine2"></img>
+                </div>
+                <div className="list__item-text">
+                  <p>Не открывается дверка</p>
+                </div>
+              </li>
+              <li className="list__item">
+                <div className="list__item-img">
+                  <img src={washingMachine2} alt="washingMachine2"></img>
+                </div>
+                <div className="list__item-text">
+                  <p>Не работает отжим в машинке</p>
+                </div>
+              </li>
+              <li className="list__item">
+                <div className="list__item-img">
+                  <img src={warning} alt="warning"></img>
+                </div>
+                <div className="list__item-text">
+                  <p>Не завершает процесс стирки</p>
+                </div>
+              </li>
+            </ul>
+            <div>
+              <img src={defectsImg} alt="defectsImg" />
             </div>
           </div>
         </div>
