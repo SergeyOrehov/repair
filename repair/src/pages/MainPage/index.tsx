@@ -185,6 +185,11 @@ const MainPage = () => {
                 </div>
                 <Button text="Заказать мастера" />
               </div>
+              <div className="tableRepair__last">
+                <a href="#" className="tableRepair__last_link">
+                  Подробные цены на ремонт стиральных машин
+                </a>
+              </div>
             </div>
           </div>
         </div>
