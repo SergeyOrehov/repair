@@ -249,7 +249,7 @@ const MainPage = () => {
                 </div>
               </li>
             </ul>
-            <div>
+            <div className="wrapper__img">
               <img src={defectsImg} alt="defectsImg" />
             </div>
           </div>
