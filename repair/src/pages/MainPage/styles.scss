@@ -94,6 +94,15 @@
   }
 }
 .price {
+  position: relative;
+  .wrapper__background {
+    position: absolute;
+    width: 412px;
+    height: 433px;
+    top: 325px;
+    left: 0;
+    background: url("../../assets/img/stars_background.png") no-repeat;
+  }
   h2 {
     font-weight: 700;
     font-size: 28px;
@@ -246,6 +255,15 @@
 
 .defects {
   margin-bottom: 61px;
+  position: relative;
+  .wrapper__background {
+    position: absolute;
+    width: 412px;
+    height: 433px;
+    top: 0;
+    right: 300px;
+    background: url("../../assets/img/stars_background.png") no-repeat;
+  }
   .defects__text {
     font-weight: 700;
     font-size: 28px;
@@ -261,6 +279,7 @@
     align-items: center;
     .wrapper__img {
       margin-left: auto;
+      position: relative;
     }
     .list {
       max-width: 670px;

@@ -87,6 +87,7 @@ const MainPage = () => {
         </div>
       </section>
       <section className="price">
+        <div className="wrapper__background"></div>
         <div className="container">
           <h2>Стоимость услуг</h2>
           <div className="diagnostics">
@@ -202,6 +203,7 @@ const MainPage = () => {
       </section>
       <section className="defects">
         <div className="container">
+          <div className="wrapper__background"></div>
           <p className="defects__text">
             Выполняем срочный ремонт поломки, которые мастер устранет за
             <span> 25 минут</span>
