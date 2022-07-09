@@ -67,6 +67,7 @@
     }
   }
 }
+
 .questions {
   display: flex;
   .questions__img {
@@ -93,6 +94,7 @@
     }
   }
 }
+
 .price {
   position: relative;
   .wrapper__background {
@@ -318,6 +320,101 @@
       }
       .list__item:last-child {
         margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.excellence {
+  background: url("../../assets/img/excellence_background.png") no-repeat;
+  padding: 123px 0 261px 0;
+  position: relative;
+  .excellence_img1 {
+    position: absolute;
+    top: 303px;
+    right: 0;
+  }
+  .excellence_img2 {
+    position: absolute;
+    top: 568px;
+  }
+  .offer {
+    max-width: 453px;
+    background: #ffffff;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 24px;
+    margin: 0 auto 53px;
+    p {
+      color: #000;
+    }
+    a {
+      color: rgba(255, 92, 0, 1);
+    }
+  }
+  .text {
+    max-width: 710px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto 64px;
+  }
+  .wrapper {
+    display: flex;
+    .plus {
+      .list {
+        margin-bottom: 71px;
+        .list__item {
+          display: block;
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 35px;
+          color: #ffffff;
+          position: relative;
+          margin-left: 77px;
+          margin-bottom: 47px;
+        }
+        :last-child {
+          margin-bottom: 0;
+        }
+        .list__item::before {
+          position: absolute;
+          content: "";
+          width: 50px;
+          height: 50px;
+          left: -77px;
+          background: url("../../assets/img/star.png") no-repeat;
+        }
+      }
+      .phone {
+        max-width: 390px;
+        p {
+          font-weight: 500;
+          font-size: 30px;
+          line-height: 35px;
+          text-align: center;
+          color: #ffffff;
+          margin: 0 auto 22px;
+        }
+        a {
+          display: block;
+          background: #fff;
+          text-align: center;
+          color: #000;
+          font-weight: 500;
+          font-size: 40px;
+          line-height: 47px;
+          text-align: center;
+          color: #000000;
+          border-radius: 30px;
+          padding: 17px 28px;
+        }
       }
     }
   }

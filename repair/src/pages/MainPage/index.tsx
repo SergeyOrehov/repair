@@ -3,6 +3,7 @@ import React from "react";
 //components
 import MainMenu from "components/MainMenu";
 import Button from "components/Button";
+import Request from "components/Request";
 
 // routes
 import routeMain from "./routes";
@@ -24,6 +25,9 @@ const MainPage = () => {
   const washingMachine2 = require("assets/img/washing-machine-2.png");
   const warning = require("assets/img/warning.png");
   const defectsImg = require("assets/img/25mins.png");
+  const excellence_img1 = require("assets/img/excellence_img1.png");
+  const excellence_img2 = require("assets/img/excellence_img2.png");
+
   return (
     <div>
       <section className="mainSection">
@@ -68,6 +72,7 @@ const MainPage = () => {
           </div>
         </div>
       </section>
+
       <section className="questions">
         <div className="questions__img">
           <img src={washingMashine} alt="washing mashine"></img>
@@ -86,6 +91,7 @@ const MainPage = () => {
           </div>
         </div>
       </section>
+
       <section className="price">
         <div className="wrapper__background"></div>
         <div className="container">
@@ -201,6 +207,7 @@ const MainPage = () => {
           </div>
         </div>
       </section>
+
       <section className="defects">
         <div className="container">
           <div className="wrapper__background"></div>
@@ -254,6 +261,42 @@ const MainPage = () => {
             <div className="wrapper__img">
               <img src={defectsImg} alt="defectsImg" />
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="excellence">
+        <img
+          className="excellence_img1"
+          src={excellence_img1}
+          alt="excellence_img1"
+        />
+        <img
+          className="excellence_img2"
+          src={excellence_img2}
+          alt="excellence_img2"
+        />
+        <div className="container">
+          <div className="offer">
+            <p>не знаете что сломалось?</p>
+            <a href="#">срочный вызов мастера на дом</a>
+          </div>
+          <p className="text">
+            Качественно устраним любые поломки вашей стиральной машины
+          </p>
+          <div className="wrapper">
+            <div className="plus">
+              <ul className="list">
+                <li className="list__item">Быстро</li>
+                <li className="list__item">Дешево</li>
+                <li className="list__item">Качественно</li>
+              </ul>
+              <div className="phone">
+                <p>Прямой телефон</p>
+                <a href="tel:+74957556983"> +7(495) 755 69 83 </a>
+              </div>
+            </div>
+            <Request />
           </div>
         </div>
       </section>
