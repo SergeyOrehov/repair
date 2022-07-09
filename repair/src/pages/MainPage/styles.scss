@@ -367,6 +367,9 @@
   }
   .wrapper {
     display: flex;
+    :last-child {
+      margin-left: auto;
+    }
     .plus {
       .list {
         margin-bottom: 71px;
@@ -417,6 +420,39 @@
         }
       }
     }
+  }
+}
+
+.discount {
+  padding: 85px 0 65px 0;
+  background: linear-gradient(
+    180deg,
+    #5f24a8 39.06%,
+    rgba(0, 118, 185, 0.9) 92.71%
+  );
+  div {
+    margin: 0 auto;
+  }
+  .wrapper {
+    max-width: 340px;
+    padding: 22px 36px;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-bottom: 55px;
+  }
+  .text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 67px;
   }
 }
 

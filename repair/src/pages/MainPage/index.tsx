@@ -300,6 +300,16 @@ const MainPage = () => {
           </div>
         </div>
       </section>
+
+      <section className="discount">
+        <div className="container">
+          <div className="wrapper">
+            <p>не теряйте время и получите скидку 10%</p>
+          </div>
+          <p className="text">Мы работаем в Москве и в Московской области</p>
+          <Request />
+        </div>
+      </section>
     </div>
   );
 };
