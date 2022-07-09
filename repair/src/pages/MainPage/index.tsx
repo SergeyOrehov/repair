@@ -301,6 +301,42 @@ const MainPage = () => {
         </div>
       </section>
 
+      <section className="assurance">
+        <div className="container">
+          <div className="block">100% гарантия качества</div>
+          <p className="question">почему мы?</p>
+          <ul className="list">
+            <li className="list__item">Работаем без выходных и праздников</li>
+            <li className="list__item">Отличные цены за ремонт в Москве</li>
+            <li className="list__item">
+              Мы устанавливаем только оригинальные запчасти
+            </li>
+            <li className="list__item">
+              Принимаем в ремонт все модели и устраняем неисправности любой
+              сложности
+            </li>
+          </ul>
+          <p className="promise">
+            Сервисный центр «Moscowqual» предоставляет клиентам сразу две
+            гарантии:
+          </p>
+          <ul className="assurance-list">
+            <li className="assurance-list__item first">
+              <div>
+                <img src={imgItem_4} alt="guarantee"></img>
+              </div>
+              <p>Гарантия на ремонт до 2-х лет</p>
+            </li>
+            <li className="assurance-list__item">
+              <div>
+                <img src={imgItem_3} alt="quaility"></img>
+              </div>
+              <p>Гарантия на запчасти до 2-х лет</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
       <section className="discount">
         <div className="container">
           <div className="wrapper">
