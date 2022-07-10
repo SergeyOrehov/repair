@@ -4,6 +4,8 @@ import React from "react";
 import MainMenu from "components/MainMenu";
 import Button from "components/Button";
 import Request from "components/Request";
+import Reviews from "components/Reviews";
+import reviewsList from "fixtures/reviewsList";
 
 // routes
 import routeMain from "./routes";
@@ -335,6 +337,17 @@ const MainPage = () => {
             </li>
           </ul>
         </div>
+      </section>
+
+      <section className="reviews">
+        <div className="container">
+          <h2>Отзывы наших клиентов</h2>
+          <p className="text">
+            Наши клиенты всегда остаются довольны нашими услугами! Лучше всего
+            они скажут об этом сами!
+          </p>
+        </div>
+        <Reviews list={reviewsList} />
       </section>
 
       <section className="discount">

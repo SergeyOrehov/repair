@@ -530,6 +530,25 @@
   }
 }
 
+.reviews {
+  color: #000000;
+  padding-top: 106px;
+  h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+  }
+  .text {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    max-width: 790px;
+    margin-bottom: 82px;
+  }
+}
+
 .discount {
   padding: 85px 0 65px 0;
   background: linear-gradient(
