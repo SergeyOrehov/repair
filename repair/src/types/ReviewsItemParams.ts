@@ -4,4 +4,6 @@ export interface ReviewsItemParams {
   text: string;
   day: string;
   year: string;
+  name: string;
+  month: string;
 }

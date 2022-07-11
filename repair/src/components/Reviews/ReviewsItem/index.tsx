@@ -9,19 +9,27 @@ interface ReviewParams {
 }
 
 const ReviewsItem: React.FC<ReviewParams> = ({ item }) => {
+  const vk = require("assets/img/icon-vk.png");
+  const facebook = require("assets/img/icon-facebook.png");
   return (
     <div className="Review">
       <div className="Rewiew__title">
-        <img src="" alt=""></img>
         <div>
-          <p></p>
-          <p></p>
+          <img src={item.img} alt="foto"></img>
+        </div>
+
+        <div>
+          <p>{item.name}</p>
+          <p>
+            {item.day} {item.month}
+            {item.year}
+          </p>
         </div>
         <a>
-          <img src="" alt=""></img>{" "}
+          <img src={vk} alt="vk"></img>
         </a>
         <a>
-          <img src="" alt=""></img>{" "}
+          <img src={facebook} alt="facebook"></img>
         </a>
       </div>
       <p className="Rewiew__text">{item.text}</p>
