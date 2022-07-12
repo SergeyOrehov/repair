@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 //components
 import MainMenu from "components/MainMenu";
@@ -29,6 +29,8 @@ const MainPage = () => {
   const defectsImg = require("assets/img/25mins.png");
   const excellence_img1 = require("assets/img/excellence_img1.png");
   const excellence_img2 = require("assets/img/excellence_img2.png");
+  const reviewsLeft = require("assets/img/ArrowLeft.png");
+  const reviewsRight = require("assets/img/ArrowRight.png");
 
   return (
     <div>
@@ -341,13 +343,19 @@ const MainPage = () => {
 
       <section className="reviews">
         <div className="container">
+          <div className="reviews__btn left">
+            <img src={reviewsLeft}></img>
+          </div>
+          <div className="reviews__btn right">
+            <img src={reviewsRight}></img>
+          </div>
           <h2>Отзывы наших клиентов</h2>
           <p className="text">
             Наши клиенты всегда остаются довольны нашими услугами! Лучше всего
             они скажут об этом сами!
           </p>
+          <Reviews list={reviewsList} />
         </div>
-        <Reviews list={reviewsList} />
       </section>
 
       <section className="discount">

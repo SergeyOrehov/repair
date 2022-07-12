@@ -10,7 +10,7 @@ interface ReviewsParams {
 }
 
 const Reviews: React.FC<ReviewsParams> = ({ list }) => (
-  <div className="reviews">
+  <div className="reviewsBlock">
     {list.map((review: ReviewsItemParams) => (
       <ReviewsItem key={review.id} item={review} />
     ))}
