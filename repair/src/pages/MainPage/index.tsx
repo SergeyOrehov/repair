@@ -31,6 +31,8 @@ const MainPage = () => {
   const excellence_img2 = require("assets/img/excellence_img2.png");
   const reviewsLeft = require("assets/img/ArrowLeft.png");
   const reviewsRight = require("assets/img/ArrowRight.png");
+  console.log(reviewsList.length);
+  const [count, setCount] = useState(1);
 
   return (
     <div>
@@ -343,10 +345,22 @@ const MainPage = () => {
 
       <section className="reviews">
         <div className="container">
-          <div className="reviews__btn left">
+          <div
+            className="reviews__btn left"
+            onClick={() => {
+              if (count !== 1) return setCount(count - 1);
+              return setCount(reviewsList.length);
+            }}
+          >
             <img src={reviewsLeft}></img>
           </div>
-          <div className="reviews__btn right">
+          <div
+            className="reviews__btn right"
+            onClick={() => {
+              if (count !== reviewsList.length) return setCount(count + 1);
+              return setCount(1);
+            }}
+          >
             <img src={reviewsRight}></img>
           </div>
           <h2>Отзывы наших клиентов</h2>
@@ -354,7 +368,30 @@ const MainPage = () => {
             Наши клиенты всегда остаются довольны нашими услугами! Лучше всего
             они скажут об этом сами!
           </p>
-          <Reviews list={reviewsList} />
+          <Reviews list={reviewsList.slice(count - 1, count + 2)} />
+          <div className="count">
+            <div
+              className="reviews__btn"
+              onClick={() => {
+                if (count !== 1) return setCount(count - 1);
+                return setCount(reviewsList.length);
+              }}
+            >
+              <img src={reviewsLeft} alt="arrow"></img>
+            </div>
+            <p>
+              <span>{count}</span> из {reviewsList.length}
+            </p>
+            <div
+              className="reviews__btn"
+              onClick={() => {
+                if (count !== reviewsList.length) return setCount(count + 1);
+                return setCount(1);
+              }}
+            >
+              <img src={reviewsRight} alt="arrow"></img>
+            </div>
+          </div>
         </div>
       </section>
 
