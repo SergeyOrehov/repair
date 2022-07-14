@@ -70,33 +70,38 @@
 
 .questions {
   display: flex;
-  .questions__img {
-    padding: 70px 0;
-  }
+  text-align: center;
+  padding-top: 60px;
   .questions__text {
-    background: url("../../assets/img/askpricestar.png") no-repeat left top;
+    background: url("../../assets/img/askprice.png") no-repeat top center;
     display: flex;
-    padding-left: 93px;
     align-items: center;
-    color: #000000;
+    color: #fff;
     font-weight: 500;
-    :first-child {
+    padding: 200px;
+    div {
+      margin: 0 auto;
+    }
+
+    p {
       line-height: 119.69%;
       font-size: 28px;
-      max-width: 570px;
       margin-bottom: 35px;
+      max-width: 570px;
     }
     .text {
       line-height: 119.69%;
       font-size: 15px;
       max-width: 375px;
       margin-bottom: 35px;
+      margin: 0 auto 35px;
     }
   }
 }
 
 .price {
   position: relative;
+  margin-top: 62px;
   .wrapper__background {
     position: absolute;
     width: 412px;

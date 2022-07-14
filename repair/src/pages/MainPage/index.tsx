@@ -12,6 +12,7 @@ import routeMain from "./routes";
 
 // styles
 import "./styles.scss";
+import "./mediaQueries.scss";
 
 const MainPage = () => {
   const imgItem_1 = require("assets/img/60-minutes.png");
@@ -80,20 +81,19 @@ const MainPage = () => {
       </section>
 
       <section className="questions">
-        <div className="questions__img">
-          <img src={washingMashine} alt="washing mashine"></img>
-        </div>
-        <div className="questions__text">
-          <div>
-            <p>
-              Ответьте на вопросы и узнайте точную стоимость ремонта вашей
-              машинки
-            </p>
-            <p className="text">
-              Мы перезвоним Вам и подробно проконсультируем по всем вопросам по
-              ремонту стиральной машинки
-            </p>
-            <Button text="Узнать стоимость" />
+        <div className="container">
+          <div className="questions__text">
+            <div>
+              <p>
+                Ответьте на вопросы и узнайте точную стоимость ремонта вашей
+                машинки
+              </p>
+              <p className="text">
+                Мы перезвоним Вам и подробно проконсультируем по всем вопросам
+                по ремонту стиральной машинки
+              </p>
+              <Button text="Узнать стоимость" />
+            </div>
           </div>
         </div>
       </section>
