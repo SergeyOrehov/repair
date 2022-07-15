@@ -51,26 +51,27 @@ const MainPage = () => {
             </ul>
             <Button text="Заказать ремонт" />
           </div>
-          <div className="advantage">
-            <div className="advantage__item">
+
+          <div className="row advantage">
+            <div className="col-lg-3 col-md-6 advantage__item">
               <div>
                 <img src={imgItem_1} alt="time" />
               </div>
               <p>Выезд мастера в течение 60 мин.</p>
             </div>
-            <div className="advantage__item">
+            <div className="col-lg-3 col-md-6 advantage__item">
               <div>
                 <img src={imgItem_2} alt="interactive" />
               </div>
               <p>Бесплатная экспресс- диагностика</p>
             </div>
-            <div className="advantage__item">
+            <div className="col-lg-3 col-md-6 advantage__item">
               <div>
                 <img src={imgItem_3} alt="quality" />
               </div>
               <p>Ремонт оригинальными комплектующими</p>
             </div>
-            <div className="advantage__item">
+            <div className="col-lg-3 col-md-6 advantage__item">
               <div>
                 <img src={imgItem_4} alt="guarantee" />
               </div>

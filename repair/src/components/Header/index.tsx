@@ -11,7 +11,6 @@ import "./mediaQueries.scss";
 const Header = () => {
   return (
     <header className="mainHeader">
-      <div></div>
       <Logo />
       <Social />
       <WorkScedule />
